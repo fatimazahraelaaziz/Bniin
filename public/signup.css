@@ -1,0 +1,75 @@
+body{
+    background: url('https://static01.nyt.com/images/2020/04/30/dining/30substitutions/30substitutions-superJumbo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: arial;
+}
+.wrap{
+    max-width: 400px;
+    border-radius:20px;
+    margin:auto;
+    padding:40px;
+    background:rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    color:#fff;
+    margin-top:100px;
+}
+h2{
+    text-align:center;
+   
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    width:100%;
+    padding:12px 5px;
+    margin-bottom:10px;
+    border:none;
+    border-bottom:1px dotted #fff;
+    outline:none;
+    color:#fff;
+    background:rgba(0,0,0,10);
+    border-radius:5px;
+    margin: 5px;
+    font-weight: bold;
+
+}
+input[type="submit"]{
+    width:100%;
+    padding:10px;
+    margin-top:25px;
+    border:none;
+    border-radius:5px;
+    background:rgba(5, 77, 14, 0.565);
+    color:#fff;
+    font-weight: bold;
+    opacity:0.7;
+}
+input[type="submit"]:hover{
+    opacity:2;
+}
+p{
+    font-size: 12px;
+    color: #fff;
+   
+}
+p a{
+    color:rgba(4, 151, 26, 0.565);
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navbar-nav{
+    flex:40%;
+  }
+  .d-flex{
+    flex: 40%;
+    
+  }
+  .signup{
+   
+    margin-right:2px;
+    margin-left: 120px;
+  }

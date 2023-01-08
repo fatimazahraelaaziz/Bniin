@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="../bootstrap.min.css" />
+    <link rel="stylesheet" href="../style2.css" />
+    
+    <title>Bniin</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="../logo.png" alt="" width="80" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="Entrees">Entrées</a></li>
+                <li><a class="dropdown-item" href="PlatsPrin">Plats Principaaux</a></li>
+                <li><a class="dropdown-item" href="Dessert">Dessert</a></li>
+                <li><a class="dropdown-item" href="Miseenbou">Mises en Bouche</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/About us">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact us</a>
+            </li>
+           
+           
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
+            <a href="/signup" class="signup"><button class="btn btn-outline-secondary" type="submit">Sign up</button> </a>
+        </div>
+      </div>
+    </nav>
+    <div class="slider-container">
+      <div class="left-slide">
+        <div style="background-color: #59bb5b65">
+          <h1 style="font-family:brush script ;">Mises en Bouche</h1>
+          <p>“On doit laisser en paix les gens chargés de la cuisine.”</p>
+        </div>
+        <div style="background-color: #c88fc0">
+          <h1 style="font-family:brush script ;">Dessert</h1>
+          <p>“La vraie cuisine est une forme d’art. Un cadeau à partager.”</p>
+        </div>
+        <div style="background-color: #252E33">
+          <h1 style="font-family:brush script ;">Plats Principaux</h1>
+          <p>“Un feu trop violent ne permet pas une bonne cuisine.”</p>
+        </div>
+        <div style="background-color: #fdb033f7">
+          <h1 style="font-family:brush script ;">Entrées</h1>
+          <p>“Le bon accueil est le meilleur plat.”</p>
+        </div>
+      </div>
+      <div class="right-slide">
+        <div style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0e/50/1b/75/assortiment-d-entrees.jpg')"></div>
+        <div style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/1c/33/f8/0f/un-petit-apercu-de-la.jpg')"></div>
+        <div style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0d/ee/5a/fe/desserts-marocains.jpg')"></div>
+        <div style="background-image: url('https://i.pinimg.com/originals/c0/b1/41/c0b141ddfacca222e727b014bdc1f150.jpg')"></div>
+      </div>
+      <div class="action-buttons">
+        <button class="down-button">
+          <i class="fas fa-arrow-down"></i>
+        </button>
+        <button class="up-button">
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+    <script src="../bootstrap.bundle.js"></script>
+
+    <script src="../script2.js"></script>
+  </body>
+</html>

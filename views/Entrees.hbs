@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="../bootstrap.min.css" />
+    <link rel="stylesheet" href="../Entrées.css" />
+    <link rel="stylesheet" href="../style2.css" />
+    
+    <title>Entrées</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img src="../logo.png" alt="" width="80" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropend">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="Entrees">Entrées</a></li>
+                <li><a class="dropdown-item" href="PlatsPrin">Plats Principaaux</a></li>
+                <li><a class="dropdown-item" href="Dessert">Dessert</a></li>
+                <li><a class="dropdown-item" href="Miseenbou">Mises en Bouche</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/About us">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactus">Contact us</a>
+            </li>
+           
+           
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+          </form>
+            <a href="/signup" class="signup"><button class="btn btn-outline-secondary" type="submit">Sign up</button> </a>
+        </div>
+      </div>
+    </nav>
+    <div class="azerty">
+      <main class="page">
+      <section class="recipes-container">
+        <!-- tag container -->
+        <div class="tags-container">
+          <h4>recipes</h4>
+          <div class="tags-list">
+            <a href="Entrees">Entrées</a>
+            <a href="PlatsPrin">Plats Principaaux</a>
+            <a href="Dessert">Dessert</a>
+            <a href="Miseenbou">Mises en Bouche</a>
+          </div>
+        </div>
+        <!-- end of tag container -->
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="https://www.ptitchef.com/imgupl/recipe/quelques-entrees-marocaines-pour-l-ete--110595p164026.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Zaalouk</h5>
+            <p>Prep : 15min | Cook : 15min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="https://p6.storage.canalblog.com/63/80/91881/26659524.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Taktouka</h5>
+            <p>Prep : 15min | Cook : 10min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="https://menaraconfluence.com/wp-content/uploads/2020/06/S%C3%A9lection-de-fines-Salades-Marocaines.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Carotte MArinée</h5>
+            <p>Prep : 15min | Cook : 20min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="https://www.la-cuisine-marocaine.com/photos-recettes/01-salade-de-radis-et-oranges-a-la-marocaine.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Salade Marocaine revisitée</h5>
+            <p>Prep : 20min | Cook : 0min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    </div>
+    <!-- end of main -->
+    <script src="./js/app.js"></script>
+    <script src="../bootstrap.bundle.js"></script>
+
+  </body>
+</html>

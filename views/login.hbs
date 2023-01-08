@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../bootstrap.min.css" />
+    <link rel="stylesheet" href="../login.css">
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="../logo.png" alt="" width="80" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropend">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Entrées</a></li>
+                <li><a class="dropdown-item" href="#">Plats Principaaux</a></li>
+                <li><a class="dropdown-item" href="#">Dessert</a></li>
+                <li><a class="dropdown-item" href="#">Mises en Bouche</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/About us">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contactus">Contact us</a>
+          </li>
+         
+         
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+          <a href="/signup" class="signup"><button class="btn btn-outline-secondary" type="submit">Sign up</button> </a>
+      </div>
+    </div>
+  </nav>
+    <div class="wrap2" >
+        <h2>Login here</h2>
+        <form  method="post" name="myform" action="/auth/login" >
+            <input type="email" name="email" placeholder="email">
+            <input type="password" name="password" placeholder="Password">
+            <input type="submit" name="submit" value="Login">
+            <p>If you don't have an account please <a href="/signup">Sign up</a></p>
+            </form>
+             {{#if message}}
+        <h3 class="alert alert-danger mt-3.5">{{message}}</h3>
+        {{/if}}
+    </div>
+    
+        <script src="../bootstrap.bundle.js"></script>
+
+    
+    
+</body>
+</html>
